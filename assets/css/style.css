@@ -178,6 +178,12 @@ header .nav-header {
     }
 }
 
+@media only screen and (max-width: 340px) {
+    header h2 {
+        max-width: 19.2rem;
+    }
+}
+
 header .sidebar-mobile {
     display: none;
     position: absolute;
