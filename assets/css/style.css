@@ -967,7 +967,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .content__text .order-1 {
         -ms-flex-order: 2;
         order: 2;
@@ -1106,11 +1106,11 @@ h3 {
 }
 
 .filter--h form.form {
-    height: 135vh;
+    height: 195vh;
 }
 
 .filter--h2 form.form {
-    height: 95vh;
+    height: 135vh;
 }
 
 @media screen and (max-width: 980px) {
@@ -1756,8 +1756,14 @@ input[type="checkbox"]:checked ~ .checkmark:after {
           bottom: 12rem; } }
       @media screen and (max-width: 980px) {
         .page--main main .main-static {
-          bottom: 4rem;
+          bottom: 0;
           margin-bottom: 20rem; } }
+      @media only screen and (max-height: 320px) {
+        .page--main main .main-static span {
+          font-size: 2.7rem !important; }
+        .page--main main .main-static p {
+          font-size: 2rem !important;
+          padding-top: 1px; } }
     .page--main main .main__lines {
       width: 100vw;
       position: absolute;
@@ -1863,7 +1869,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
           margin: 0 auto; }
         .page--main main section.main-supports .invest-playground__title {
           margin: 0 auto;
-          margin-top: 2rem; } }
+          margin-top: 2rem; }
+          .page--main main section.main-supports .invest-playground__title h1 {
+            line-height: 1 !important; } }
     .page--main main section.invest-playground {
       padding: 8rem;
       padding-left: 5.5rem;
