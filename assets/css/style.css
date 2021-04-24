@@ -1159,9 +1159,11 @@ h3 {
         display: flex;
         width: 1.2rem;
         height: 1.2rem;
+        -ms-flex-pack: center;
+        justify-content: center;
         font-size: 9px;
-        text-align: center;
-        line-height: 1;
+        line-height: 1.5;
+        color: #2B5BA4;
         border-radius: 50%;
         background-color: #ffffff;
         position: absolute;
