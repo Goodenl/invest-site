@@ -1760,6 +1760,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
     @media only screen and (max-width: 460px) {
       .page--main header .burger {
         right: 2.5rem; } }
+  .page--main ul.li-margin {
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
   @media screen and (max-width: 980px) {
     .page--main .container.px-5 {
       padding-left: 0 !important;
@@ -1770,7 +1773,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
       padding-left: 0 !important;
       padding-right: 0 !important; }
     .page--main ul.li-margin {
-      margin-left: 0 !important; } }
+      margin-left: 0 !important;
+      -ms-flex-direction: column;
+          flex-direction: column; } }
   .page--main main {
     margin-top: 0;
     z-index: 3; }
@@ -1812,7 +1817,7 @@ input[type="checkbox"]:checked ~ .checkmark:after {
         .page--main main .main-static span {
           font-size: 5rem; }
         .page--main main .main-static p {
-          font-size: 2.5rem; } }
+          font-size: 2.1rem; } }
       @media screen and (max-width: 980px) {
         .page--main main .main-static span {
           font-size: 4rem !important; }
