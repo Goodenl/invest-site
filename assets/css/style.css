@@ -1155,8 +1155,6 @@ h3 {
 
 @media screen and (max-width: 980px) {
     .circle-btn {
-        display: -ms-flexbox;
-        display: flex;
         width: 1.2rem;
         height: 1.2rem;
         -ms-flex-pack: center;
