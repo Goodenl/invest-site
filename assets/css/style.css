@@ -1148,21 +1148,21 @@ h3 {
     padding-bottom: 140px;
 }
 
-.filter--h form.form {
-    height: 100%;
-    position: relative;
-    overflow: scroll;
-}
-
-.filter--h2 form.form {
-    height: 100%;
-    position: relative;
-    overflow: scroll;
-}
-
 @media screen and (max-width: 980px) {
     .filter {
         display: none;
+    }
+
+    .filter--h form.form {
+        height: 100%;
+        position: relative;
+        overflow: scroll;
+    }
+
+    .filter--h2 form.form {
+        height: 100%;
+        position: relative;
+        overflow: scroll;
     }
 
     .filter-show .filter {
