@@ -2334,6 +2334,10 @@ input[type="checkbox"]:checked ~ .checkmark:after {
     cursor: pointer;
     border-radius: 50%;
     top: -8px; }
+  @media screen and (max-width: 980px) {
+    .slider-range {
+      padding-left: .1rem;
+      padding-right: .7rem; } }
 
 .output-box {
   display: -ms-flexbox;
