@@ -1136,20 +1136,21 @@ h3 {
     }
 }
 
+.filter {
+    overflow-y: scroll;
+    padding-bottom: 140px;
+}
+
 .filter--h form.form {
     height: 100%;
-    width: 97vw;
-    position: fixed;
+    position: relative;
     overflow: scroll;
-    padding-bottom: 260px;
 }
 
 .filter--h2 form.form {
     height: 100%;
-    width: 97vw;
-    position: fixed;
+    position: relative;
     overflow: scroll;
-    padding-bottom: 260px;
 }
 
 @media screen and (max-width: 980px) {
