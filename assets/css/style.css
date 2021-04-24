@@ -1122,11 +1122,17 @@ h3 {
 }
 
 .filter--h form.form {
-    height: 195vh;
+    height: 100%;
+    width: 97vw;
+    position: fixed;
+    padding-bottom: 260px;
 }
 
 .filter--h2 form.form {
-    height: 135vh;
+    height: 100%;
+    width: 97vw;
+    position: fixed;
+    padding-bottom: 260px;
 }
 
 @media screen and (max-width: 980px) {
@@ -1478,7 +1484,7 @@ h3 {
     position: relative;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
     .gallery__item {
         max-width: 100%;
     }
@@ -1689,6 +1695,8 @@ input[type="checkbox"]:checked ~ .checkmark:after {
   .page--main .pr-4-c {
     padding-right: .5rem !important; }
   .page--main .header-box {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     padding-left: 0.5rem !important; }
   .page--main .logo-box {
     margin-left: 2rem; }
@@ -1778,7 +1786,7 @@ input[type="checkbox"]:checked ~ .checkmark:after {
       @media screen and (max-width: 1366px) {
         .page--main main .main-static {
           bottom: 12rem; } }
-      @media only screen and (max-width: 1183px) {
+      @media only screen and (max-width: 1214px) {
         .page--main main .main-static span {
           font-size: 5rem; }
         .page--main main .main-static p {
@@ -1864,13 +1872,14 @@ input[type="checkbox"]:checked ~ .checkmark:after {
       @media screen and (max-width: 980px) {
         .page--main main section.main-gallery {
           padding: 0 2rem 4rem; }
-          .page--main main section.main-gallery .mb-lg-0 img {
-            width: auto !important;
-            height: 33.5rem; }
           .page--main main section.main-gallery .gallery {
             margin: 0; }
             .page--main main section.main-gallery .gallery > div {
               padding: 0; } }
+      @media only screen and (max-width: 375px) {
+        .page--main main section.main-gallery .mb-lg-0 img {
+          width: auto !important;
+          height: 33.5rem; } }
       .page--main main section.main-gallery h2 {
         font-size: 4rem; }
         @media screen and (max-width: 980px) {
