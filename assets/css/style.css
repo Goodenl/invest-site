@@ -776,7 +776,7 @@ h3 {
     }
 
     .m-column--gallery__row img {
-        margin-right: 1rem;
+        margin-right: 1rem !important;
     }
 }
 
@@ -1710,6 +1710,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
 .page {
   min-height: 100vh;
   overflow: hidden; }
+  @media only screen and (max-height: 1024px) {
+    .page--main {
+      margin-top: 26rem; } }
   .page--main .pr-4-c {
     padding-right: .5rem !important; }
   .page--main .header-box {
@@ -1725,7 +1728,8 @@ input[type="checkbox"]:checked ~ .checkmark:after {
     max-width: 659px; }
   .page--main header {
     position: absolute;
-    min-height: 100vh;
+    min-width: 700px;
+    height: 100vh;
     padding: 8rem;
     padding-top: 4rem;
     background: url("../images/bg-header-main.jpg");
