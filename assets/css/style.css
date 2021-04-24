@@ -1710,9 +1710,6 @@ input[type="checkbox"]:checked ~ .checkmark:after {
 .page {
   min-height: 100vh;
   overflow: hidden; }
-  @media only screen and (max-height: 1024px) {
-    .page--main {
-      margin-top: 26rem; } }
   .page--main .pr-4-c {
     padding-right: .5rem !important; }
   .page--main .header-box {
@@ -1728,7 +1725,7 @@ input[type="checkbox"]:checked ~ .checkmark:after {
     max-width: 659px; }
   .page--main header {
     position: absolute;
-    min-width: 700px;
+    min-width: h;
     height: 100vh;
     padding: 8rem;
     padding-top: 4rem;
@@ -1747,7 +1744,7 @@ input[type="checkbox"]:checked ~ .checkmark:after {
     @media screen and (max-width: 980px) {
       .page--main header {
         min-width: 100vw;
-        min-height: 100vh;
+        min-height: 700px;
         padding: 0;
         background: url("../images/bg-header-main-mob.jpg");
         background-position-y: top;
@@ -1777,6 +1774,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
   .page--main main {
     margin-top: 0;
     z-index: 3; }
+    @media only screen and (max-height: 1024px) {
+      .page--main main {
+        margin-top: 26rem; } }
     @media screen and (max-width: 980px) {
       .page--main main {
         margin-top: 20rem; } }
