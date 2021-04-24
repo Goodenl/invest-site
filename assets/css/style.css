@@ -755,6 +755,22 @@ h3 {
         margin-top: 2.5rem;
     }
 
+    .m-column--gallery__row {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .m-column--gallery__row img {
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .m-column--gallery__row {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
     .m-column--gallery__row img {
         margin-right: -2.5rem;
     }
