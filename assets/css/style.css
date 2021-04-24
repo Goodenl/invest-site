@@ -1779,9 +1779,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
   .page--main main {
     margin-top: 0;
     z-index: 3; }
-    @media only screen and (max-height: 1024px) {
+    @media only screen and (min-height: 1024px) and (max-width: 768px) {
       .page--main main {
-        margin-top: 26rem !important; } }
+        margin-top: 24rem !important; } }
     @media screen and (max-width: 980px) {
       .page--main main {
         margin-top: 20rem; } }
