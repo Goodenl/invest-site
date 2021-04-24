@@ -208,6 +208,21 @@ header .sidebar-mobile .tel {
     left: 8rem;
 }
 
+@media only screen and (max-width: 330px) {
+    header .sidebar-mobile {
+        padding: 4.4rem 2rem 2rem;
+    }
+
+    header .sidebar-mobile li {
+        margin-bottom: 2rem;
+    }
+
+    header .sidebar-mobile .tel {
+        bottom: 10rem;
+        left: 5rem;
+    }
+}
+
 main {
     margin-top: -38rem;
     position: relative;
@@ -1125,6 +1140,7 @@ h3 {
     height: 100%;
     width: 97vw;
     position: fixed;
+    overflow: scroll;
     padding-bottom: 260px;
 }
 
@@ -1132,6 +1148,7 @@ h3 {
     height: 100%;
     width: 97vw;
     position: fixed;
+    overflow: scroll;
     padding-bottom: 260px;
 }
 
