@@ -1149,6 +1149,24 @@ h3 {
     }
 }
 
+.circle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .circle-btn {
+        display: -ms-flexbox;
+        display: flex;
+        width: 1.2rem;
+        height: 1.2rem;
+        text-align: center;
+        line-height: 1;
+        border-radius: 50%;
+        background-color: #ffffff;
+        position: relative;
+    }
+}
+
 .filter-btn {
     display: none;
 }
