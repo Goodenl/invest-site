@@ -1518,12 +1518,7 @@ h3 {
 
 @media only screen and (max-width: 480px) {
     .gallery__item {
-        max-width: calc(100% / 3);
-    }
-
-    .gallery__item:last-child {
-        display: -ms-flexbox;
-        display: flex;
+        max-width: 100%;
     }
 }
 
