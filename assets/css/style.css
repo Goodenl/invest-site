@@ -1763,6 +1763,9 @@ input[type="checkbox"]:checked ~ .checkmark:after {
           margin-left: 2rem; }
         .page--main header .col-8.m-show {
           display: none; } }
+    @media only screen and (max-height: 700px) {
+      .page--main header {
+        min-height: 700px; } }
     @media only screen and (max-width: 460px) {
       .page--main header .burger {
         right: 2.5rem; } }
