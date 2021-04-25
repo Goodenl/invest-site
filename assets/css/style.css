@@ -1143,14 +1143,11 @@ h3 {
     }
 }
 
-.filter {
-    overflow-y: scroll;
-    padding-bottom: 140px;
-}
-
 @media screen and (max-width: 980px) {
     .filter {
         display: none;
+        overflow-y: scroll;
+        padding-bottom: 140px;
     }
 
     .filter--h form.form {
