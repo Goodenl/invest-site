@@ -1509,6 +1509,7 @@ h3 {
 @media only screen and (max-width: 980px) {
     .gallery__item {
         max-width: calc(100% /2);
+        height: 100%;
     }
 
     .gallery__item:last-child {
