@@ -1915,13 +1915,13 @@ input[type="checkbox"]:checked ~ .checkmark:after {
             margin: 0; }
             .page--main main section.main-gallery .gallery > div {
               padding: 0; } }
-      @media only screen and (min-height: 600px) and (max-width: 980px) {
+      @media only screen and (min-height: 600px) and (max-width: 460px) {
         .page--main main section.main-gallery {
           margin-top: 4rem; } }
-      @media only screen and (min-height: 500px) and (max-width: 980px) {
+      @media only screen and (min-height: 500px) and (max-width: 460px) {
         .page--main main section.main-gallery {
           margin-top: 12rem; } }
-      @media only screen and (min-height: 400px) and (max-width: 980px) {
+      @media only screen and (min-height: 400px) and (max-width: 460px) {
         .page--main main section.main-gallery {
           margin-top: 22rem; } }
       @media only screen and (max-width: 375px) {
