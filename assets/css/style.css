@@ -780,6 +780,7 @@ h3 {
     .m-column--gallery__row {
         -ms-flex-direction: row;
         flex-direction: row;
+        height: 59%;
     }
 
     .m-column--gallery__row img {
