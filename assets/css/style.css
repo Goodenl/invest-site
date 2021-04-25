@@ -1506,9 +1506,24 @@ h3 {
     position: relative;
 }
 
+@media only screen and (max-width: 980px) {
+    .gallery__item {
+        max-width: calc(100% /2);
+    }
+
+    .gallery__item:last-child {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .gallery__item {
-        max-width: 100%;
+        max-width: calc(100% / 3);
+    }
+
+    .gallery__item:last-child {
+        display: -ms-flexbox;
+        display: flex;
     }
 }
 
