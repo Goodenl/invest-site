@@ -1517,6 +1517,7 @@ h3 {
     .gallery__item {
         max-width: calc(100% /2);
         height: 100%;
+        margin-bottom: 0;
     }
 
     .gallery__item:last-child {
