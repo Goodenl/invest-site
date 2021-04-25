@@ -1892,6 +1892,11 @@ input[type="checkbox"]:checked ~ .checkmark:after {
         @media screen and (max-width: 1366px) {
           .page--main main section.preview-main .li-margin > li {
             margin-right: 3.3rem !important; } }
+    @media only screen and (max-width: 1366px) {
+      .page--main main .gallery__box {
+        padding-right: 0; }
+        .page--main main .gallery__box img {
+          width: 100%; } }
     .page--main main .gallery__item {
       margin-right: 4rem;
       margin-bottom: 4rem; }
@@ -1904,9 +1909,6 @@ input[type="checkbox"]:checked ~ .checkmark:after {
           overflow: hidden; }
           .page--main main .gallery__item:last-child {
             margin-bottom: 1rem; } }
-      @media only screen and (max-width: 1024px) {
-        .page--main main .gallery__item img {
-          width: 100%; } }
     .page--main main section.main-gallery {
       padding-bottom: 8rem;
       padding-top: 0;
