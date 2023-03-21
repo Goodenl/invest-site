@@ -1042,8 +1042,8 @@ h3 {
 }
 
 .t-underline {
-    -webkit-text-decoration: underline solid 1px;
-    text-decoration: underline solid 1px;
+    -webkit-text-decoration: underline solid 1px !important;
+    text-decoration: underline solid 1px !important;
     font-size: 2rem;
 }
 
@@ -1101,6 +1101,10 @@ h3 {
 
 .support__list {
     padding: 0;
+}
+
+.support__list > a {
+    text-decoration: none;
 }
 
 .support__list li {
@@ -1315,15 +1319,13 @@ h3 {
     }
 }
 
-.support__list a {
+.support__list a.t-underline {
     color: rgba(0, 0, 0, 0.4);
     font-size: 1.4rem;
-    position: absolute;
-    bottom: 0;
 }
 
 @media screen and (max-width: 980px) {
-    .support__list a {
+    .support__list a.t-underline {
         display: none;
     }
 }
@@ -1346,6 +1348,10 @@ h3 {
     font-size: 1.6rem;
     margin-bottom: 5px;
     padding-left: 0;
+}
+
+.projects__list a {
+    text-decoration: none;
 }
 
 .projects__list h3, .projects__list p {
@@ -1445,6 +1451,10 @@ h3 {
     display: flex;
     font-size: 1.6rem;
     padding: 2.8rem 2rem 2.3rem;
+}
+
+.playgrounds__list a {
+    text-decoration: none;
 }
 
 .playgrounds__list p {
